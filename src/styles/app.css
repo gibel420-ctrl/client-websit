@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand-navy: #1C2C4C;
+  --color-brand-green: #A1C34A;
+}
+
+@layer base {
+  html,
+  body {
+    @apply text-gray-900 bg-white antialiased;
+  }
+}
